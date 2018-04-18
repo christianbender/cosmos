@@ -1,5 +1,4 @@
-/* Part of Cosmos by OpenGenus Foundation */
-/* Contributed by Vaibhav Jain (vaibhav29498) */
+/* Contributed by Christian Bender (christianbender) */
 /* Refactored by Adeen Shukla (adeen-s) */
 #include <iostream>
 #include <stddef.h>
