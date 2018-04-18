@@ -1,5 +1,4 @@
 /* Contributed by Christian Bender (christianbender) */
-/* Refactored by Adeen Shukla (adeen-s) */
 #include <iostream>
 #include <stddef.h>
 #include <cassert>
