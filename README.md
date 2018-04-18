@@ -1,14 +1,7 @@
 # Cosmos
 
-[![Help Contribute to Open Source](https://www.codetriage.com/opengenus/cosmos/badges/users.svg)](https://www.codetriage.com/opengenus/cosmos)
+This repository is a fork. You can contribute to this fork and extended it.  
 
-> The universe of algorithm and data structures
-
-**Cosmos** is your personal offline collection of every algorithm and data structure one will ever encounter and use in a lifetime. This provides solutions in various languages spanning `C`, `C++`, `Java`, `JavaScript`, `Swift`, `Python`, `Go` and others.
-
-This work is maintained by a community of hundreds of people and is a _massive collaborative effort_ to bring the readily available coding knowledge **offline**.
-
-> **Many coders ask me how to improve their own performances. I cannot say anything except "solve and review and prepare your library"** - _Uwi Tenpen_
 
 # Cosmic Structure
 
