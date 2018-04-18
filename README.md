@@ -36,4 +36,4 @@ Each type has several hundreds of problems with solutions in several languages s
 
 # License
 
-We believe in freedom and improvement. [GNU General Public License v3.0](https://github.com/OpenGenus/cosmos/blob/master/LICENSE)
+We believe in freedom and improvement. [GNU General Public License v3.0]  
