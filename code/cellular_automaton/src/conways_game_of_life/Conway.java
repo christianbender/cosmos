@@ -161,9 +161,15 @@ public class Conway extends JFrame {
 				for (int i = 0;i<size;i++)
 					for(int j=0;j<size;j++) {
 						if (ae.getSource() == grid[i][j]) {
-							grid_num[i][j] = 1;
-							grid[i][j].setBackground(Color.BLACK);
-							return;
+							if (grid_num[i][j] == 0) {
+								grid_num[i][j] = 1;
+								grid[i][j].setBackground(Color.BLACK);
+								return;
+							} else if (grid_num[i][j] == 1) {
+								grid_num[i][j] = 0;
+								grid[i][j].setBackground(Color.WHITE);
+								return;
+							}
 						}
 					}
 			}
