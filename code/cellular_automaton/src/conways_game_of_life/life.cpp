@@ -4,8 +4,8 @@
 using namespace std;
 // Part of Cosmos by OpenGenus Foundation
 // Defines the world size parameters
-const int SIZE_X = 50;
-const int SIZE_Y = 160;
+const int SIZE_X = 15;
+const int SIZE_Y = 50;
 // Number of random cells are filled
 const int number = SIZE_X*SIZE_Y/8;
 
