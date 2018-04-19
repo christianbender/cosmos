@@ -5,7 +5,6 @@ import javax.swing.*;
 public class Conway extends JFrame {
 
 	private int size = 80, gen = 0, kill = 1;
-	private boolean check = false;
 	private JButton grid[][] = new JButton[size][size], toggle, wow, gun, clear;
 	private int grid_num[][] = new int[size][size];
 	private JLabel status;
