@@ -47,9 +47,7 @@ void Polynomial::insert_term(int c, int p) {
 
 void Polynomial::print() {
   for(int i = 0; i < poly.size(); i++) {
-    if (i == 0) {
-      cout << poly[i].coeff << "x^" << poly[i].pow << " ";
-    } else if (i < poly.size() -1) {
+    if (i < poly.size() -1) {
       cout << poly[i].coeff << "x^" << poly[i].pow << " + ";
     } else {
       cout << poly[i].coeff << "x^" << poly[i].pow;
@@ -125,5 +123,6 @@ int main() {
   Polynomial * p3 = p1 + p2;
   cout << "Sum:";
   p3->print();
+  delete p3;
   return 0;
 }
