@@ -29,7 +29,7 @@ int getNeighbors(const char world[][SIZE_Y], int posX, int posY);
 // Retrieves the amount of neighbors a cell has
 
 int main() {
-	int gen(0);
+	int gen = 0;
 	char world[SIZE_X][SIZE_Y];
 
 	ofstream fout;
@@ -42,12 +42,12 @@ int main() {
 	loadConfig(world);
 	display(world, fout, gen);
 	char c;
-	cout << "\nPress return to create a new generation and press x to exit!\n";
+	cout << "\nPress return to create a new generation and press any key to exit!\n";
 	cin.get(c);
 	do {
 		generation(world, gen);
 		display(world, fout, gen);
-		cout << "\nPress return to create a new generation and press x to exit!\n";
+		cout << "\nPress return to create a new generation and press any key to exit!\n";
 		cin.get(c);
 	} while(c == '\n');
 
@@ -71,7 +71,7 @@ void loadConfig(char world[][SIZE_Y]) {
 }
 
 int getNeighbors(const char world[][SIZE_Y], int posX, int posY) {
-	int neighbors(0);
+	int neighbors = 0;
 
 	int row = posX - 1, column = posY - 1;
 	// Top-left
