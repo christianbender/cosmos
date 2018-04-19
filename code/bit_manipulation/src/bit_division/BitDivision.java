@@ -6,10 +6,10 @@ class BitDivision
 	{
 		int curr=1;
 		int result=0;	
-		if ( divisor >divident)
+		if ( divisor > divident)
     	    return 0;
 
-    	else if ( divisor ==divident)
+    	else if ( divisor == divident)
     	    return 1;
 
     	while (divisor <divident) 
@@ -21,11 +21,11 @@ class BitDivision
     	divisor >>= 1;
     	curr >>= 1;
 
-  	  	while (curr!=0) 
+  	  	while (curr != 0) 
   	  	{
         	if (divident >= divisor) 
         	{
-        	   divident -= divisor;
+        	   	divident -= divisor;
            	 	result |= curr;
         	}
         	curr >>= 1;
@@ -38,9 +38,11 @@ class BitDivision
 	{
 		Scanner scan=new Scanner(System.in);
 		//a -> represents divident
+		System.out.print("Give the divident: ");
 		int a=scan.nextInt();
 		//b -> represents divisor
+		System.out.print("Give the divisor: ");
 		int b=scan.nextInt();
-		System.out.println(division(a,b));
+		System.out.printf("The result is %d\n",division(a,b));
 	}
 }
